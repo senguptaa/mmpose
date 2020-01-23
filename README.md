@@ -27,7 +27,7 @@ To the best of the our knowledge, this is the first method that uses mmWave rada
 # [ArXiv Preprint](https://arxiv.org/abs/1911.09592)
 Please cite the paper in the following format:
 
-Sengupta, Arindam, Feng Jin, Renyuan Zhang, and Siyang Cao. "mm-Pose: Real-Time Human Skeletal Posture Estimation using mmWave Radars and CNNs." arXiv preprint arXiv:1911.09592 (2019).
+Arindam Sengupta, Feng Jin, Renyuan Zhang, and Siyang Cao. "mm-Pose: Real-Time Human Skeletal Posture Estimation using mmWave Radars and CNNs." arXiv preprint arXiv:1911.09592 (2019).
 
 ---
 # Data-sets and Source Code
