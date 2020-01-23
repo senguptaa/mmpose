@@ -12,7 +12,7 @@ While vision based sensors provide a high-resolution representation of the scene
 <p align="center">
     <img src="https://media.giphy.com/media/emLsQYHXbStkvKSHty/giphy.gif", width="480">
     <br>
-    <sup>Uber Autonomous Car Crash in Arizona, 2018.</sup>
+    <sup>Uber Autonomous Car Crash in Arizona, 2018. <a href="https://www.youtube.com/watch?v=RASBcc4yOOo" target="_blank">Source</a></sup>
 </p>
 
 Radio Frequency (RF) based sensors, such as radars, use its own signals to illuminate the target (active sensing), therefore making it operationally robust to scene lighting and weather conditions. However, unlike vision based sensors, radars represent the scene using RF intensity based spatial heat-maps, reflection point clouds or range-doppler maps, rather than a true-color image representation. Radars are therefore primarily used for target localization and tracking applications. Furthermore, object classification becomes non-trivial with radar data, and the lack of available labeled radar data-sets for this task makes it even more challenging. 
