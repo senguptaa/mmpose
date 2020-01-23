@@ -1,2 +1,29 @@
-# mmpose
+# mmPose
 mmPose: Human Skeletal Pose Estimation using mmWave Radars
+---
+#### PI: [Dr. Siyang Cao](https://uweb.engr.arizona.edu/~caos/)
+#### Project Members: [Arindam Sengupta](https://github.com/senguptaa) & [Feng Jin](https://github.com/fengjin-uofarizona)
+#### Organization: University of Arizona
+#### E-mail: {caos, sengupta, fengjin}@email.arizona.edu
+---
+# Motivation
+While vision based sensors provide a high-resolution representation of the scene, there are a few challenges associated with their operation. They heavily rely on (or influenced by) external sources for illuminating the scene and are therefore rendered ineffective in poor lighting conditions, adverse weather conditions or when the scene/target is occluded. These could result in irrevocable catastrophic events similar to the ones encountered at (i) Tesla's autopilot testing, where the vision sensors failed to detect the white side of a tractor trailer in brightly lit sky (very high reflectivity) , and (ii) Uber self-driving vehicle crash incident in Arizona due to the vision/LiDAR sensors' inability to detect the pedestrian in time to avoid the accident during a night test (low/no reflectivity). There is therefore an imminent need for alternate sensors to achieve the task, while overcoming the aforementioned challenges.
+
+Radio Frequency (RF) based sensors, such as radars, use its own signals to illuminate the target (active sensing), therefore making it operationally robust to scene lighting and weather conditions. However, unlike vision based sensors, radars represent the scene using RF intensity based spatial heat-maps, reflection point clouds or range-doppler maps, rather than a true-color image representation. Radars are therefore primarily used for target localization {and tracking applications}. Furthermore, object classification becomes non-trivial with radar data, and the lack of available labeled radar data-sets for this task makes it even more challenging. 
+
+Traditionally, radar systems have been size and cost intensive primarily targeted to commercial and defense applications. However, continuing advancement in micro-electronics fabrication and manufacturing techniques, including Radio Frequency Integrated Circuits (RFICs), have significantly reduced the size and cost of electronic sensors making them more accessible to public. mmWave automotive radars are an example of this technology. They are low-power, compact and are extremely practical to deploy. Furthermore, mmWave radars {provide} us with a high resolution point cloud representation of the scene and have therefore emerged as one of the primary sensors in autonomous robots on a smaller scale, to more commercial applications such as autonomous vehicles. Higher operating bandwidths also allow mmWave radars to roughly generate the contour of human body without extracting facial information, thus preserving user privacy.
+
+Therefore, we propose mm-Pose, a novel real-time approach to estimate and track human skeleton using mmWave radars and convolutional neural networks (CNNs). A potential depiction of its application in traffic monitoring systems and autonomous vehicles is shown below. To the best of the our knowledge, this is the first method that uses mmWave radar reflection signals to estimate the real-world position of >15 distinct joints of a human body. mm-Pose could also find applications in (i) privacy-protected automated patient monitoring systems, and (ii) aiding defense forces in a hostage situation. Radars carrying this technology on unmanned aerial vehicles (UAVs) could scan the building and map the live skeletal postures of the hostage and the adversary, through the walls, which would not have been possible otherwise with vision sensors.
+
+---
+# [ArXiv Preprint](https://arxiv.org/abs/1911.09592)
+Please cite the paper in the following format:
+
+Sengupta, Arindam, Feng Jin, Renyuan Zhang, and Siyang Cao. "mm-Pose: Real-Time Human Skeletal Posture Estimation using mmWave Radars and CNNs." arXiv preprint arXiv:1911.09592 (2019).
+
+---
+# Data-sets and Source Code
+Work in progress! Please stay tuned to updates on this repo.
+
+
+
