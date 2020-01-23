@@ -27,7 +27,7 @@ Therefore, we propose mm-Pose, a novel real-time approach to estimate and track 
     <sup>mm-Pose can be used in automated patient monitoring systems especially with the shortage in nursing aided supervised care. <a href="https://www.ncbi.nlm.nih.gov/books/NBK493175/" target="_blank">Source</a> </sup>
 </p>
 
-To the best of the our knowledge, this is the first method that uses mmWave radar reflection signals to estimate the real-world position of >15 distinct joints of a human body. mm-Pose could also find applications in (i) privacy-protected automated patient monitoring systems, and (ii) aiding defense forces in a hostage situation. Radars carrying this technology on unmanned aerial vehicles (UAVs) could scan the building and map the live skeletal postures of the hostage and the adversary, through the walls, which would not have been possible otherwise with vision sensors.
+To the best of the our knowledge, this is the first method that uses mmWave radar reflection signals to estimate the real-world position of >15 distinct joints of a human body. mm-Pose could also find applications in (i) autonomous vehicles and traffic monitoring systems for pedestrians, and (ii) aiding defense forces in a hostage situation. Radars carrying this technology on unmanned aerial vehicles (UAVs) could scan the building and map the live skeletal postures of the hostage and the adversary, through the walls, which would not have been possible otherwise with vision sensors.
 
 <p align="center">
     <img src="https://github.com/radar-lab/mmpose/blob/master/Misc/mmpose.gif", width="960">
