@@ -10,7 +10,7 @@ mmPose: Human Skeletal Pose Estimation using mmWave Radars
 While vision based sensors provide a high-resolution representation of the scene, there are a few challenges associated with their operation. They heavily rely on (or influenced by) external sources for illuminating the scene and are therefore rendered ineffective in poor lighting conditions, adverse weather conditions or when the scene/target is occluded. These could result in irrevocable catastrophic events similar to the ones encountered at (i) Tesla's autopilot testing, where the vision sensors failed to detect the white side of a tractor trailer in brightly lit sky (very high reflectivity) , and (ii) Uber self-driving vehicle crash incident in Arizona due to the vision/LiDAR sensors' inability to detect the pedestrian in time to avoid the accident during a night test (low/no reflectivity). There is therefore an imminent need for alternate sensors to achieve the task, while overcoming the aforementioned challenges.
 
 <p align="center">
-    <img src="https://github.com/radar-lab/mmpose/blob/master/Misc/Uber.gif", width="480">
+    <img src="https://media.giphy.com/media/emLsQYHXbStkvKSHty/giphy.gif", width="480">
     <br>
     <sup>Uber Autonomous Car Crash in Arizona, 2018.</sup>
 </p>
